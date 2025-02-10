@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Font size for mobile phones */
+@media (max-width: 768px) {
+  p {
+    font-size: 14px;
+    color: blue;
+  }
+}
+
+/* Font size for tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  p {
+    font-size: 15px;
+    color: red;
+  }
+}
+
+/* Font size for desktop */
+@media (min-width: 1025px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Styles for each of the 3 divs */
+div {
+  border: 1px solid black;
+  margin: 0.5em;
+  width: 30%;
+  float: left;
+  background-color: lightgray;
+}
+
+/* Styles for the H1 heading */
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Styles for the parahraphs inside the divs */
+div p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 1em;
+  padding-left: 0.5em;
+  font-size: 16px;
+}
+
+/* Styles for the Chicken label */
+.chicken {
+  border: 1px solid black;
+  float: right;
+  padding: 0.05em 0.5em;
+  background-color: #ffa500;
+  font-size: 20px;
+}
+
+/* /* Styles for the Beef label */
+*/ .beef {
+  border: 1px solid black;
+  float: right;
+  padding: 0.05em 0.5em;
+  background-color: #ff8080;
+  font-size: 20px;
+}
+
+/* Styles for the Sushi label */
+.sushi {
+  border: 1px solid black;
+  float: right;
+  padding: 0.05em 0.5em;
+  background-color: #ffff4d;
+  font-size: 20px;
+}
